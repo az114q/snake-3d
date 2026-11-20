@@ -1,0 +1,11 @@
+{
+  "name": "neon-snake-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "零依赖的 3D 贪吃蛇 H5 小游戏，自带迷你 WebGL 渲染器",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test/game.test.js && node test/framing.test.js && node test/artifact.test.js",
+    "preview": "node build.js && python3 -m http.server 8080 -d dist"
+  }
+}
